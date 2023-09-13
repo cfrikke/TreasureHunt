@@ -20,6 +20,7 @@ console.log("Permissions accepted");
 
 
 function stepTwo() {
+     console.log("StepTwo");
      if(buttonclicked === true && permissions === true){
           alert("You made it to Night 2!");
           window.open("page2.html")
